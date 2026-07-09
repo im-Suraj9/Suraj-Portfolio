@@ -1,0 +1,23 @@
+# Robots.txt for Suraj Kumar Portfolio
+# https://www.robotstxt.org/robotstxt.html
+
+User-agent: *
+Allow: /
+
+# Disallow admin and private areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /api/
+
+# Allow specific crawlers for social media
+User-agent: Twitterbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Slackbot
+Allow: /
+
+# Sitemap location
+Sitemap: suraj-portfolio-sepia-eight.vercel.app/sitemap.xml
